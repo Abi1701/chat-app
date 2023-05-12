@@ -1,0 +1,57 @@
+.registerPage{
+  background-image: url("../../assets/BG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.formRegister{
+  background: rgba(170, 139, 86, 0.7);
+  border-radius: 30px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.formRegister1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.formRegister2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.submitSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+}
+.submitButton{
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  width: 200px;
+}

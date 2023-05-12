@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.profileContainer{
+  height: 30vh;
+  width:300px;
+  background-color: #EAE7B1;
+  font-family: 'Poppins', sans-serif;
+}
+.profileSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profilePicture{
+  width: 100px;
+  border-radius: 50px;
+}
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1em;
+}
+h3{
+  font-size: 0.8em;
+}

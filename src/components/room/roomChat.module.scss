@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.roomChatContainer{
+  height: 100vh;
+  width: 800px;
+  background-color: #3C6255;
+  flex-wrap: wrap;
+}
+.navChat{
+  display: flex;
+  gap: 20px;
+}
+.profilePicture{
+  width: 50px;
+  border-radius: 50px;
+}
+.userName{
+  color: wheat;
+  font-family: 'Poppins', sans-serif;
+}
+.close{
+  color: wheat;
+}
+.chatBoxContainer{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.chatBoxMessage{
+  width: 600px;
+  height: 80vh;
+  border: solid 1px wheat;
+}
+.chatBoxEnter{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+}
+.chatBox{
+  width: 300px;
+  height: 100px;
+  border: solid 1px wheat;
+  border-radius: 10px;
+  background-color: transparent;
+  color: wheat;
+}
+.buttonContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonSend{
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  background-color: wheat;
+  color: #3C6255;
+  font-weight:800 ;
+}
+.buttonAttached{
+    background-color: wheat;
+    color: #3C6255;
+    font-weight: 800;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+}
